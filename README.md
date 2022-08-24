@@ -10,8 +10,18 @@ In Backend part of this application, we have three layers to handle the data
 1. API Layer = StudentController class in this project. A controller is a class object to handle the data
 flow of the application in the MVC pattern.
 1. Service Layer =  StudentService class in this project. The controller ask service to get the data or modify the data
-2. Data Access Layer
+2. Data Access Layer = StudentRepository interface in this project
 
+## Spring Framework Overview
+The content following is from the website "tutroialspoint"
+https://www.tutorialspoint.com/spring/spring_overview.htm
+
+Spring is a lightweight framework for developers to create application. Spring is a modular that allows the users to choose which modules to use in their applications. 
+
+### Dependency Injection(DI) or wiring
+DI is the important concept for Spring Framework. In Java or system design, it is a better practice to design the classes as independent as possible. So that, the classes can be reused and tested separately. To achieve class independency and smooth classes interaction, DI is designed for that.
+    For example, class A is dependent of class B. class B will get injected into class A by the IoC.
+### Inversion of Control(IoC)
 
 ## Java Annotations
 Java annotations are metadata (data about data) for program source code. They tells the complier additional information
