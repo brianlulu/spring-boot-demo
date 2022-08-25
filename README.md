@@ -31,6 +31,9 @@ tells the complier that this method is override with its super class.
 - Compile-time instructions - Compile-time instructions provided by these annotations help the software build tools to generate code, XML files and many more.
 - Runtime instructions - Some annotations can be defined to give instructions to the program at runtime. These annotations are accessed using Java Reflection.
 
+### @Transient
+This annotation tells the database that the variable with this annotation does not create a column in database
+
 ## Model-View-Controller (MVC) Pattern
 This pattern is used to separate application's concerns.
 
